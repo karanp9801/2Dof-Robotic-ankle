@@ -1,10 +1,3 @@
-/* 
-  Controls a 2-DOF robotic ankle (sagittal + transverse) using two hobby servos.
-  Produces smooth, human-like gait-ish motion inspired by the project's motion ranges:
-   - Sagittal (dorsiflexion/plantarflexion): ~ ±45° (tweakable)
-   - Transverse (inversion/eversion): ~ ±15° (tweakable)
-  Based on the mechanical design & ranges in the project report. :contentReference[oaicite:1]{index=1}
-*/
 
 #include <Servo.h>
 
